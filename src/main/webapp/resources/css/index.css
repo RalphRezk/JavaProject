@@ -1,0 +1,26 @@
+@import
+	url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+
+body{
+    margin:0;
+    font-family: 'Montserrat', "Arial";
+}
+
+md-card{
+   border-radius: 5px; 
+}
+
+md-tabs>md-tabs-wrapper {
+	background-color: white;
+}
+
+.wrapper{
+    width:80%;
+    border-radius: 5px;
+    padding:20px;
+}
+
+.md-button{
+    padding:5px 15px;
+    border-radius: 5px;
+}

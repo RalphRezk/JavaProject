@@ -1,0 +1,37 @@
+@import
+	url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+
+body{
+	margin:0;
+    font-family: 'Montserrat', "Arial";
+}
+
+md-card{
+    border-radius: 5px;
+}
+
+.md-content{
+	background: url(bg.svg);
+}
+
+.icon-red svg {
+	fill: red !important
+}
+
+.padding{
+    padding:5px 15px;
+    border-radius: 5px;
+}
+
+.white-toolbar{
+	border:none;
+	border-radius: 5px;
+	background:white;
+	background:linear-gradient(white,white);
+	color:#4F4F4F;
+}
+
+.md-radio-interactive input {
+	width:800px;
+    pointer-events: all;
+}
